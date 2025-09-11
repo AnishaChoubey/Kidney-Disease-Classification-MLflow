@@ -1,0 +1,79 @@
+# ---------------------
+# Python
+# ---------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+*.sqlite3
+
+# ---------------------
+# Virtual Environments
+# ---------------------
+venv/
+env/
+ENV/
+.venv/
+.kidney/
+kidney/
+
+# ---------------------
+# Jupyter Notebook
+# ---------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---------------------
+# IDE / Editors
+# ---------------------
+.vscode/
+.idea/
+*.swp
+
+# ---------------------
+# OS Generated Files
+# ---------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------
+# Machine Learning / Data Science
+# ---------------------
+# DVC
+.dvc/
+.cache/
+*.dvc
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Trained Models / Checkpoints
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pb
+*.tflite
+*.onnx
+*.pbtxt
+
+# Large Datasets
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.zip
+*.gz
+
+# ---------------------
+# Build / Packaging
+# ---------------------
+build/
+dist/
+.eggs/
