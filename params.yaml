@@ -1,0 +1,6 @@
+random_param1: 42
+random_param2: hello_world
+random_param3: [1, 2, 3, 4]
+random_param4:
+  nested_key1: 0.001
+  nested_key2: true
