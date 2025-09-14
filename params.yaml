@@ -1,6 +1,8 @@
-random_param1: 42
-random_param2: hello_world
-random_param3: [1, 2, 3, 4]
-random_param4:
-  nested_key1: 0.001
-  nested_key2: true
+AUGMENTATION: True
+IMAGE_SIZE: [224, 224, 3] # as per VGG 16 model
+BATCH_SIZE: 16
+INCLUDE_TOP: False
+EPOCHS: 1
+CLASSES: 2
+WEIGHTS: imagenet
+LEARNING_RATE: 0.01
