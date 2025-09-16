@@ -46,4 +46,9 @@ export MLFLOW_TRACKING_USERNAME=AnishaChoubey
 export MLFLOW_TRACKING_PASSWORD=2254846308235d831836322ec845966deac15585
 
 ```
+### DVC cmd
+
+1. dvc init
+2. dvc repro
+3. dvc dag
 
