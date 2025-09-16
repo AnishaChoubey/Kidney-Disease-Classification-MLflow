@@ -25,3 +25,25 @@ python -v venv  Kidney python=3.11.3 -y
 pip install -r requirements.txt
 ```
 
+##### cmd
+- mlflow ui
+
+### dagshub
+[dagshub](https://dagshub.com/)
+
+MLFLOW_TRACKING_URI=(https://dagshub.com/AnishaChoubey/Kidney-Disease-Classification-MLflow.mlflow)
+MLFLOW_TRACKING_USERNAME=AnishaChoubey
+MLFLOW_TRACKING_PASSWORD=2254846308235d831836322ec845966deac15585
+python script.py
+
+Run this to export as env variables:
+
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/AnishaChoubey/Kidney-Disease-Classification-MLflow.mlflow
+export MLFLOW_TRACKING_USERNAME=AnishaChoubey 
+
+export MLFLOW_TRACKING_PASSWORD=2254846308235d831836322ec845966deac15585
+
+```
+
