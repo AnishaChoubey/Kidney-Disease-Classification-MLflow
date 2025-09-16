@@ -44,9 +44,10 @@ Thumbs.db
 # Machine Learning / Data Science
 # ---------------------
 # DVC
-.dvc/
+!.dvc/
 .cache/
-*.dvc
+# *.dvc
+
 
 # MLflow
 mlruns/
